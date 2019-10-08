@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Ventanas Emergentes</title>
+</head>
+<body>
+    <div class="container">
+      <br>
+       <a href="#ventana1" class="btn btn-primary btn-lg" data-toggle="modal">Boton #1</a>
+       <a href="#ventana2" class="btn btn-success btn-lg" data-toggle="modal">Boton #2</a>
+        <div class="modal fade" id="ventana1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- header ventana -->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Encabezado de nuestra ventana #1</h4>
+                    </div>
+                    <!-- header contenido -->
+                    <div class="modal-body">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus ut aperiam libero! Cum error impedit nulla provident fugiat qui veritatis iusto, assumenda tenetur est laboriosam eveniet architecto porro quae repellat.
+                        </p>
+                    </div>
+                    <!-- footer de la ventana -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="ventana2">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <!-- header ventana -->
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">Encabezado de nuestra ventana #2</h4>
+                        </div>
+                        <!-- header contenido -->
+                        <div class="modal-body">
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus ut aperiam libero! Cum error impedit nulla provident fugiat qui veritatis iusto, assumenda tenetur est laboriosam eveniet architecto porro quae repellat.
+                            </p>
+                        </div>
+                        <!-- footer de la ventana -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+  
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
