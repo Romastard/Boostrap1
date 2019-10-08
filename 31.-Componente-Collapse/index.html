@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Collapse</title>
+</head>
+<body>
+    <div class="container">
+        <br>
+        <a href="#seccion" class="btn btn-success" data-toggle="collapse">Mostrar / Ocultar</a>
+        <div class="collapse" id="seccion">
+            <br>
+            <div class="well">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non sapiente, vel ullam incidunt doloremque tempore cum sequi illum maxime magni voluptatibus, facilis iure quasi illo, nam dicta in? Deserunt, repellendus!</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="panel-group" id="acordion" role="tablist">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading1">
+                    <h4 class="panel-title">
+                        <a href="#collapse1" data-toggle="collapse" data-parent="#acordion">
+                            Encabezado #1
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reiciendis dolore sint laudantium velit libero commodi earum veniam soluta sunt iure, maiores doloribus, quae minus laboriosam similique quibusdam esse eum!
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading2">
+                        <h4 class="panel-title">
+                            <a href="#collapse2" data-toggle="collapse" data-parent="#acordion">
+                                Encabezado #2
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reiciendis dolore sint laudantium velit libero commodi earum veniam soluta sunt iure, maiores doloribus, quae minus laboriosam similique quibusdam esse eum!
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading3">
+                            <h4 class="panel-title">
+                                <a href="#collapse3" data-toggle="collapse" data-parent="#acordion">
+                                    Encabezado #3
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reiciendis dolore sint laudantium velit libero commodi earum veniam soluta sunt iure, maiores doloribus, quae minus laboriosam similique quibusdam esse eum!
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
